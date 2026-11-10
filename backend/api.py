@@ -22,6 +22,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        'https://ai-cybershield-2sy5.onrender.com',
     "http://localhost:5173",
     "http://localhost:5174",
     "http://localhost:5175",
